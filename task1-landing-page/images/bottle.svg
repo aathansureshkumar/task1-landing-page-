@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 520" width="420" height="520" role="img" aria-label="Aqua Loop bottle">
+  <defs>
+    <linearGradient id="body" x1="0" x2="1"><stop offset="0" stop-color="#0b7f8d"/><stop offset="0.45" stop-color="#19b6c8"/><stop offset="1" stop-color="#0a6d7a"/></linearGradient>
+    <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#1b3a47"/><stop offset="0.5" stop-color="#2d5666"/><stop offset="1" stop-color="#14303b"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dff3f6"/><stop offset="1" stop-color="#f4fbfc"/></linearGradient>
+  </defs>
+  <circle cx="210" cy="270" r="200" fill="url(#bg)"/>
+  <ellipse cx="210" cy="482" rx="96" ry="14" fill="#0b2530" opacity="0.12"/>
+  <!-- cap -->
+  <rect x="172" y="34" width="76" height="26" rx="8" fill="url(#cap)"/>
+  <rect x="160" y="56" width="100" height="34" rx="10" fill="url(#cap)"/>
+  <!-- body -->
+  <path d="M150 100 h120 a22 22 0 0 1 22 22 v334 a28 28 0 0 1 -28 28 h-108 a28 28 0 0 1 -28 -28 v-334 a22 22 0 0 1 22 -22z" fill="url(#body)"/>
+  <rect x="166" y="122" width="14" height="330" rx="7" fill="#fff" opacity="0.22"/>
+  <!-- hydration ring -->
+  <circle cx="210" cy="260" r="52" fill="none" stroke="#fff" stroke-opacity="0.25" stroke-width="10"/>
+  <path d="M210 208 a52 52 0 1 1 -49.5 36" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <text x="210" y="268" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff">72%</text>
+  <!-- label -->
+  <text x="210" y="368" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" letter-spacing="2">AQUA LOOP</text>
+  <text x="210" y="392" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#d8f4f8">750 ml</text>
+</svg>
